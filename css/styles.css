@@ -1,6 +1,42 @@
 body {
 	font-size: 16px;
 	color: #fff;
-	background-color: #ABCDEF;
+	background-color: #CCDDEE;
 	font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #607070;
+	border-radius: 0;
+	border: 0;
+}
+
+#logo-img{
+	background: url('../images/logo_mini.png') no-repeat;
+	width: 75px;
+	height: 75px;
+	margin: 10px 15px 10px 0px;
+}
+.navbar-brand h1{ /*Name */
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 5px;
+	color: #6a7a7a;
+	font-size: 2.3em;
+	text-transform: uppercase;
+	font-weight: : bold;
+	font-style: italic;
+	text-shadow: 2px 2px 2px #333;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+.navbar-brand p { /*quote*/
+	color: #FFF;
+	font-size: .7em;
+	margin-top: 15px
+}
+.navbar-brand p span{
+	vertical-align: 0px;
 }
